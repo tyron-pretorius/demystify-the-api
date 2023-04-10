@@ -21,8 +21,8 @@ headers = {
 
 for i in range(0, len(friends_numbers)):
 
-    message = 'Hey ' + friends_name[i] + ', ' + your_name + ' here, not my usual number I know! I just sent my first SMS message via API using this new number and this awesome course: https://theworkflowpro.com/demystify-the-api/'
-
+    message = f'Hey {friends_name[i]}, {your_name} here, not my usual number I know! I just sent my first SMS message via API using this new number and this awesome course: https://theworkflowpro.com/demystify-the-api/'
+    
     payload = json.dumps({
         "from": your_telnyx_number,
         "to": friends_numbers[i],
