@@ -1,0 +1,9 @@
+curl -X POST \
+  --header "Content-Type: application/json" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --data '{
+    "from": "+13115552368",
+    "to": "+13115552367",
+    "text": "Hello, world!"
+  }' \
+  https://api.telnyx.com/v2/messages
