@@ -2,6 +2,9 @@
 
 Code and request bodies from [The Workflow Pro's Demystify the API crash course](https://theworkflowpro.com/demystify-the-api/).
 
+## Slides
+- `demystify-the-api-slides.pdf`: the full course slide deck (all 8 lessons) as a PDF.
+
 ## Making your first POST request (Postman)
 - `jsonplaceholder-post-request-body.json`: the practice POST to `https://jsonplaceholder.typicode.com/posts` (no API key needed).
 - `send-email-post-request-body.json`: the email you send with a POST to `https://api.resend.com/emails`. In Postman, set Authorization to **Bearer Token** with your Resend API key, then paste this into **Body → raw → JSON** and change `to` to the email you signed up to Resend with.
