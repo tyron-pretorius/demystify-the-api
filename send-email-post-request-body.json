@@ -1,0 +1,6 @@
+{
+  "from": "onboarding@resend.dev",
+  "to": "you@example.com",
+  "subject": "My first API email",
+  "html": "<p>I just sent this email with an API!</p>"
+}
